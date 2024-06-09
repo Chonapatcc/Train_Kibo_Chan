@@ -105,7 +105,6 @@ for f in image_files:
   blank_image = cv2.imread("D:/trainKibo/images.jpg")
   # Load the image to place (replace with your image path)
   image_to_place = cv2.imread(f"D:/trainKibo/lost_item_images/{f}")
-
   # Create a list to store the final images
   placed_images = []
 
