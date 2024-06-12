@@ -111,6 +111,8 @@ for f in image_files:
   placed_images = []
 
 
+
+
   # Randomly place the image 200 times and create new images
   for i in range(1,10+1):
     placed_image = random_place_image(id,i,1,blank_image.copy(),changeSize(rotatePicture(image_to_place)))
